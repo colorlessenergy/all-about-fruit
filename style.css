@@ -3,21 +3,58 @@ html, body {
   padding: 0;
 }
 
+nav ul {
+  align-items: center;
+  background-color: #0c0c0c;
+  color: #fff;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  justify-content: space-around;
+}
+
 .banana {
   background: url("assets/banana.jpg");
 }
+
 .cabbage {
   background: url("assets/cabbage.png");
+}
+
+.container-fruit {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.display-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  height: 300px;
+  width: 1000px;
 }
 
 .orange {
   background: url("assets/orange.png");
 }
 
-.display-img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 1000px;
+.title {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
 
+}
+
+.title h1{
+  margin: 0;
+  padding: 0;
 }
