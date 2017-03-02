@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.banana {
+  background: url("assets/banana.jpg");
+}
+.cabbage {
+  background: url("assets/cabbage.png");
+}
+
+.orange {
+  background: url("assets/orange.png");
+}
+
+.display-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1000px;
+
+}
