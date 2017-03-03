@@ -1,4 +1,6 @@
 html, body {
+  background-color: #303030;
+  font-family: 'Ropa Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -15,8 +17,36 @@ nav ul {
 }
 
 nav ul li {
-  list-style-type: none;
   justify-content: space-around;
+  list-style-type: none;
+}
+
+nav ul li a:hover {
+  color: #3db8db;
+  transition: 0.3s ease;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer p a {
+  color: #3db8db;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: #000;
+  transition: 0.3s ease;
 }
 
 .banana {
@@ -24,7 +54,8 @@ nav ul li {
 }
 
 .cabbage {
-  background: url("assets/cabbage.png");
+  background: url("assets/cabbage.jpg");
+  color: red;
 }
 
 .container-fruit {
@@ -34,16 +65,83 @@ nav ul li {
   justify-content: center;
 }
 
+.container-info .button p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-info .button p:hover {
+  background-color: #fff;
+  transition: 0.3s ease;
+}
+
+.container-info .button p a:hover {
+  color: #000;
+  transition: 0.3s ease;
+}
+
 .display-img {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
-  height: 300px;
-  width: 1000px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+  margin: 10px 0;
+  width: 95%;
+}
+
+.display-img .container-info {
+  margin-left: 20px;
+}
+
+.display-img h1 {
+  font-size: 40px;
+}
+
+.display-img p {
+  font-size: 20px;
+}
+
+.display-img .button {
+  border: #fff 3px solid;
+  display: inline-block;
+}
+
+.display-img .button p {
+  margin: 0;
+  padding: 0 5px;
+}
+
+.more-info {
+  background-color: #fff;
+  color: #000;
+  height: 400px;
+}
+
+.more-info-footer {
+  border-top: #606060 1px solid;
+  display: flex;
+}
+
+.more-info * {
+  margin: 0 10px;
+}
+
+.more-info h3 {
+  color: #3db8db;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.more-info h4 {
+  font-size: 25px;
 }
 
 .orange {
-  background: url("assets/orange.png");
+  background: url("assets/orange.jpg");
 }
 
 .title {
@@ -51,10 +149,10 @@ nav ul li {
   display: flex;
   height: 100px;
   justify-content: center;
-
 }
 
 .title h1{
+  color: #fff;
   margin: 0;
   padding: 0;
 }
