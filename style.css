@@ -126,6 +126,7 @@ footer p a:hover {
 .more-info-footer {
   border-top: #606060 1px solid;
   display: flex;
+  justify-content: space-around;
 }
 
 .more-info * {
