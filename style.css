@@ -65,17 +65,17 @@ footer p a:hover {
   justify-content: center;
 }
 
-.container-info .button p a {
+.display-img .button p a {
   text-decoration: none;
   color: #fff;
 }
 
-.container-info .button p:hover {
+.display-img .button p:hover {
   background-color: #fff;
   transition: 0.3s ease;
 }
 
-.container-info .button p a:hover {
+.display-img .button p a:hover {
   color: #000;
   transition: 0.3s ease;
 }
@@ -99,26 +99,28 @@ footer p a:hover {
 
 .display-img h1 {
   font-size: 40px;
+  margin: 0 20px;
+  padding: 0;
+
 }
 
 .display-img p {
   font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .display-img .button {
   border: #fff 3px solid;
-  display: inline-block;
+  margin-left: 20px;
+  width: 73px;
 }
 
-.display-img .button p {
-  margin: 0;
-  padding: 0 5px;
-}
 
 .more-info {
   background-color: #fff;
   color: #000;
-  height: 400px;
+  height: 450px;
 }
 
 .more-info-footer {
@@ -127,13 +129,13 @@ footer p a:hover {
 }
 
 .more-info * {
-  margin: 0 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .more-info h3 {
   color: #3db8db;
   font-size: 30px;
-  margin: 10px;
 }
 
 .more-info h4 {
